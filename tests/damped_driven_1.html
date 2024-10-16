@@ -10,6 +10,7 @@
         height: 100%;
         margin: 0;
         padding: 0;
+        max-width: 115ch;
         font-family: Trebuchet MS;
       }
     </style>
@@ -66,11 +67,16 @@
         else document.addEventListener("DOMContentLoaded", fn);
       })();
     </script>
+    <br/>
+    <br/>
+
+<hr style="height: 1px;">
 
 <br/>
-<br/>
 
-<h3><span style=" border:none; border-bottom: 2px solid; padding: 5px 0px; outline: none;">About the Visualization:</span> "Resonance"</h3>
+<details>
+    <summary><font size="4"><b>About the Visualization</b></font></summary>
+
 
 <p>These plots show the amplitude and phase of an underdamped, driven oscillator, which depend on the driving frequency and damping parameters.</p>
 
@@ -98,11 +104,14 @@
     <li>\(\Gamma\): vary the damping of the system within the range \([0.0,1.0]\,\mathrm{Hz}\)</li>
     <li>\(A\): vary the amplitude of the system within the range \([0.0,10.0]\)</li>
 </ul>
+</details>
 
 <br/>
 
 
-<h3><span style=" border:none; border-bottom: 2px solid; padding: 5px 0px; outline: none;">Exploration</span></h3>
+
+<details>
+    <summary><font size="4"><b>Ideas for Exploration</b></font></summary>
 
 <p>Consider the following questions and possible actions:</p>
 <ul>
@@ -110,11 +119,13 @@
     <li>Compare the frequencies \(\omega_{0}\) and \(\omega_{\mathrm{peak}}\). How do they depend on the parameters?</li>
     <li>Note the limits \(\omega_{d} \to 0\) and \(\omega_{d} \to \infty\). Does the amplitude and phase behave as expected?</li>
 </ul>      
+</details>
 
 <br/>
 
 
-<h3><span style=" border:none; border-bottom: 2px solid; padding: 5px 0px; outline: none;">Addtional Info</span></h3>
+<details>
+    <summary><font size="4"><b>Supplementary Information</b></font></summary>
 
 <p>The complete solution ("particular" solution plus "homogeneous" solution) to the equation of motion of an underdamped, driven pendulum is:</p>
 
@@ -134,13 +145,12 @@ $$
 \delta(\omega_{d}) = \arctan{\frac{\omega_{d}\Gamma}{\left(\omega_{0}^{2} - \omega_{d}^{2}\right)}}
 $$
 
+</details>
 
 <br/>
 
 <hr style="height: 1px;">
 <p><i>Copyright 2023 MIT All Rights Reserved.</i></p>
-<hr style="height: 1px;">
-
 
 </div>
   </body>
