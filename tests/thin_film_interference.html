@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 115ch; 
+        font-family: Trebuchet MS;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.6.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-3.6.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+    <script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+
+    <div style="margin-left: 50px; margin-right: 50px; margin-top: 20px; margin-bottom: 20px;">
+
+    <div id="d850571f-0169-4990-9d67-1246738a20a1" data-root-id="p3965" style="display: contents;"></div>
+  
+    <script type="application/json" id="d6874fc7-28e1-449c-bb06-0362170bfb9f">
+      {"0c547b98-ad30-4823-b84c-a4ac9a0ff686":{"version":"3.6.1","title":"Bokeh Application","roots":[{"type":"object","name":"Column","id":"p3965","attributes":{"children":[{"type":"object","name":"Figure","id":"p3896","attributes":{"width":800,"height":400,"x_range":{"type":"object","name":"Range1d","id":"p3905","attributes":{"start":200,"end":900}},"y_range":{"type":"object","name":"Range1d","id":"p3906"},"x_scale":{"type":"object","name":"LinearScale","id":"p3907"},"y_scale":{"type":"object","name":"LinearScale","id":"p3908"},"title":{"type":"object","name":"Title","id":"p3903"},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p3938","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p3893","attributes":{"selected":{"type":"object","name":"Selection","id":"p3894","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3895"},"data":{"type":"map","entries":[["lam",[3600.0,1200.0,720.0,514.2857142857143,400.0,327.27272727272725,276.9230769230769,240.0,211.76470588235293,189.47368421052633,171.42857142857142,156.52173913043478,144.0,133.33333333333334,124.13793103448276,116.12903225806451,109.0909090909091,102.85714285714286,97.29729729729729,92.3076923076923,87.8048780487805,83.72093023255815,80.0,76.59574468085107,73.46938775510205,70.58823529411765,67.9245283018868,65.45454545454545,63.1578947368421,61.016949152542374,59.01639344262295,57.142857142857146,55.38461538461539,53.73134328358209,52.17391304347826,50.70422535211268,49.31506849315068,48.0,46.753246753246756,45.56962025316456,44.44444444444444,43.373493975903614,42.35294117647059,41.37931034482759,40.449438202247194,39.56043956043956,38.70967741935484,37.89473684210526,37.11340206185567,36.36363636363637,35.64356435643565,34.95145631067961,34.285714285714285,33.64485981308411,33.027522935779814,32.432432432432435,31.858407079646017,31.304347826086957,30.76923076923077,30.252100840336134,29.75206611570248,29.26829268292683,28.8,28.346456692913385,27.906976744186046,27.480916030534353,27.06766917293233,26.666666666666668,26.277372262773724,25.899280575539567,25.53191489361702,25.174825174825173,24.82758620689655,24.489795918367346,24.161073825503355,23.841059602649008,23.529411764705884,23.225806451612904,22.929936305732483,22.641509433962263,22.36024844720497,22.085889570552148,21.818181818181817,21.55688622754491,21.301775147928993,21.05263157894737,20.809248554913296,20.571428571428573,20.338983050847457,20.11173184357542,19.88950276243094,19.672131147540984,19.45945945945946,19.25133689839572,19.047619047619047,18.848167539267017,18.65284974093264,18.46153846153846,18.274111675126903,18.09045226130653]],["visible",[false,false,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]],["color",[[128,128,128],[128,128,128],[255,0,0],[16,255,0],[170,0,255],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128],[128,128,128]]],["alpha",[0.2,0.2,1.0,1.0,1.0,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2]]]}}},"view":{"type":"object","name":"CDSView","id":"p3939","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p3940"}}},"glyph":{"type":"object","name":"Segment","id":"p3935","attributes":{"x0":{"type":"field","field":"lam"},"y0":{"type":"value","value":0},"x1":{"type":"field","field":"lam"},"y1":{"type":"value","value":1},"line_color":{"type":"field","field":"color"},"line_alpha":{"type":"field","field":"alpha"},"line_width":{"type":"value","value":3}}},"nonselection_glyph":{"type":"object","name":"Segment","id":"p3936","attributes":{"x0":{"type":"field","field":"lam"},"y0":{"type":"value","value":0},"x1":{"type":"field","field":"lam"},"y1":{"type":"value","value":1},"line_color":{"type":"field","field":"color"},"line_alpha":{"type":"value","value":0.1},"line_width":{"type":"value","value":3}}},"muted_glyph":{"type":"object","name":"Segment","id":"p3937","attributes":{"x0":{"type":"field","field":"lam"},"y0":{"type":"value","value":0},"x1":{"type":"field","field":"lam"},"y1":{"type":"value","value":1},"line_color":{"type":"field","field":"color"},"line_alpha":{"type":"value","value":0.2},"line_width":{"type":"value","value":3}}}}},{"type":"object","name":"GlyphRenderer","id":"p3947","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p3941","attributes":{"selected":{"type":"object","name":"Selection","id":"p3942","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3943"},"data":{"type":"map","entries":[["x",[380,380]],["y",[0,1]]]}}},"view":{"type":"object","name":"CDSView","id":"p3948","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p3949"}}},"glyph":{"type":"object","name":"Line","id":"p3944","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_width":2,"line_dash":[6]}},"nonselection_glyph":{"type":"object","name":"Line","id":"p3945","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.1,"line_width":2,"line_dash":[6]}},"muted_glyph":{"type":"object","name":"Line","id":"p3946","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.2,"line_width":2,"line_dash":[6]}}}},{"type":"object","name":"GlyphRenderer","id":"p3956","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p3950","attributes":{"selected":{"type":"object","name":"Selection","id":"p3951","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3952"},"data":{"type":"map","entries":[["x",[740,740]],["y",[0,1]]]}}},"view":{"type":"object","name":"CDSView","id":"p3957","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p3958"}}},"glyph":{"type":"object","name":"Line","id":"p3953","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_width":2,"line_dash":[6]}},"nonselection_glyph":{"type":"object","name":"Line","id":"p3954","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.1,"line_width":2,"line_dash":[6]}},"muted_glyph":{"type":"object","name":"Line","id":"p3955","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.2,"line_width":2,"line_dash":[6]}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p3904","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p3919"},{"type":"object","name":"WheelZoomTool","id":"p3920","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p3921","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p3922","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p3928","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p3927","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"SaveTool","id":"p3929"},{"type":"object","name":"ResetTool","id":"p3930"},{"type":"object","name":"HelpTool","id":"p3931"}]}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p3914","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p3915","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p3916"},"axis_label":"Intensity","major_label_policy":{"type":"object","name":"AllLabels","id":"p3917"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p3909","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p3910","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p3911"},"axis_label":"Wavelength (nm)","major_label_policy":{"type":"object","name":"AllLabels","id":"p3912"}}}],"center":[{"type":"object","name":"Grid","id":"p3913","attributes":{"axis":{"id":"p3909"}}},{"type":"object","name":"Grid","id":"p3918","attributes":{"dimension":1,"axis":{"id":"p3914"}}}]}},{"type":"object","name":"Slider","id":"p3961","attributes":{"js_property_callbacks":{"type":"map","entries":[["change:value",[{"type":"object","name":"CustomJS","id":"p3963","attributes":{"args":{"type":"map","entries":[["source",{"id":"p3893"}],["slider_n",{"id":"p3961"}],["slider_d",{"type":"object","name":"Slider","id":"p3962","attributes":{"js_property_callbacks":{"type":"map","entries":[["change:value",[{"id":"p3963"}]]]},"width":800,"title":"Spacing (d [nm])","start":0,"end":2000,"value":600,"step":2}}],["overall_color",{"type":"object","name":"Div","id":"p3960","attributes":{"width":100,"height":60,"text":"&lt;div style='width:75px;height:15px;border:1px solid black;background:rgb(255,255,255)'&gt;&lt;/div&gt;"}}]]},"code":"\n    const n = slider_n.value;\n    const d = slider_d.value;\n    const data = source.data;\n    const lam = data['lam'];\n    const visible = data['visible'];\n    const color = data['color'];\n    const alpha = data['alpha'];\n\n    function lambda_max(N, n, d) {\n        return 4.0 * d * n / (2.0 * N - 1.0);\n    }\n\n    function wav2RGB(Wavelength) {\n        let Red, Green, Blue;\n        if (380 &lt;= Wavelength &amp;&amp; Wavelength &lt; 440) {\n            Red = (440 - Wavelength) / (440 - 380);\n            Green = 0.0;\n            Blue = 1.0;\n        } else if (440 &lt;= Wavelength &amp;&amp; Wavelength &lt; 490) {\n            Red = 0.0;\n            Green = (Wavelength - 440) / (490 - 440);\n            Blue = 1.0;\n        } else if (490 &lt;= Wavelength &amp;&amp; Wavelength &lt; 510) {\n            Red = 0.0;\n            Green = 1.0;\n            Blue = (510 - Wavelength) / (510 - 490);\n        } else if (510 &lt;= Wavelength &amp;&amp; Wavelength &lt; 580) {\n            Red = (Wavelength - 510) / (580 - 510);\n            Green = 1.0;\n            Blue = 0.0;\n        } else if (580 &lt;= Wavelength &amp;&amp; Wavelength &lt; 645) {\n            Red = 1.0;\n            Green = (645 - Wavelength) / (645 - 580);\n            Blue = 0.0;\n        } else if (645 &lt;= Wavelength &amp;&amp; Wavelength &lt;= 740) {\n            Red = 1.0;\n            Green = 0.0;\n            Blue = 0.0;\n        } else {\n            Red = 0.0;\n            Green = 0.0;\n            Blue = 0.0;\n        }\n\n        let factor;\n        if (380 &lt;= Wavelength &amp;&amp; Wavelength &lt; 420) {\n            factor = 0.3 + 0.7 * (Wavelength - 380) / (420 - 380);\n        } else if (420 &lt;= Wavelength &amp;&amp; Wavelength &lt; 700) {\n            factor = 1.0;\n        } else if (700 &lt;= Wavelength &amp;&amp; Wavelength &lt;= 740) {\n            factor = 0.3 + 0.7 * (740 - Wavelength) / (740 - 700);\n        } else {\n            factor = 0.0;\n        }\n\n        const Adjust = (Color, Factor) =&gt; Math.round((255 * (Color * Factor)));\n        const R = Adjust(Red, factor);\n        const G = Adjust(Green, factor);\n        const B = Adjust(Blue, factor);\n\n        return `rgb(${R}, ${G}, ${B})`;\n    }\n\n    let overall_r = 0, overall_g = 0, overall_b = 0;\n    let count = 0;\n\n    for (let i = 0; i &lt; lam.length; i++) {\n        lam[i] = lambda_max(i + 1, n, d);\n\n        if (lam[i] &lt; 380 || lam[i] &gt; 740) {\n            visible[i] = false;\n            color[i] = \"#808080\";\n            alpha[i] = 0.2;\n        } else {\n            visible[i] = true;\n            alpha[i] = 1.0;\n            color[i] = wav2RGB(lam[i]);\n\n            const rgb = color[i].match(/\\d+/g);\n            overall_r += parseInt(rgb[0]);\n            overall_g += parseInt(rgb[1]);\n            overall_b += parseInt(rgb[2]);\n            count += 1;\n        }\n    }\n\n    if (count &gt; 0) {\n        // Cap the overall color values at 255\n        overall_r = Math.min(overall_r, 255);\n        overall_g = Math.min(overall_g, 255);\n        overall_b = Math.min(overall_b, 255);\n        \n        overall_color.text = `&lt;div style='width:75px;height:15px;border:1px solid black;background:rgb(${overall_r},${overall_g},${overall_b})'&gt;&lt;/div&gt;`;\n    } else {\n        overall_color.text = `&lt;div style='width:75px;height:15px;border:1px solid black;background:#000'&gt;&lt;/div&gt;`;\n    }\n\n    source.change.emit();\n"}}]]]},"width":800,"title":"Refractive Index (n)","start":1.0,"end":2.5,"value":1.5,"step":0.01}},{"id":"p3962"},{"type":"object","name":"Row","id":"p3964","attributes":{"children":[{"type":"object","name":"Div","id":"p3959","attributes":{"width":100,"height":40,"text":"Summative Color:"}},{"id":"p3960"}]}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('d6874fc7-28e1-449c-bb06-0362170bfb9f').textContent;
+              const render_items = [{"docid":"0c547b98-ad30-4823-b84c-a4ac9a0ff686","roots":{"p3965":"d850571f-0169-4990-9d67-1246738a20a1"},"root_ids":["p3965"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+    <br/>
+    <br/>
+
+<hr style="height: 1px;">
+
+<br/>
+
+<details>
+    <summary><font size="4"><b>About the Visualization</b></font></summary>
+
+    <p><b>Plot:</b> Vertical lines represent the wavelengths corresponding to constructive interference from a thin film, which depends on the index of refraction of the film \(n\) and the thickness \(d\) in the following way: \(\lambda_{\mathrm{max}}=4nd/(2N-1)\). The visible range of light is shown from \(380-740\,\mathrm{nm}\). The overall color of light within the visible range is approximated by adding the colors corresponding to constructive interference.</p>
+
+
+    <br/>
+
+  
+    <p><b>Sliders:</b>
+<ul>
+    <li>\(n\): vary the index of refraction of the thin film</li>
+    <li>\(d\): vary the thickness of the then film (in units of nm)</li>
+</ul>
+</p>
+
+</p>
+</details>
+
+    <br/>
+
+
+<details>
+    <summary><font size="4"><b>Ideas for Exploration</b></font></summary>
+
+
+    <p>Consider the following questions and possible actions:</p>
+<ul>
+    <li>At what wavelengths does constructive interference occur for a specified \(n\) and \(d\)?</li>
+    <li>What values of \(n\) and \(d\) will produce one wavelength within the visible range?</li>
+    <li>What values of \(n\) and \(d\) will produce many wavelengths within the visible range?</li>
+</ul>  
+
+</details>
+
+    <br/>
+
+<details>
+    <summary><font size="4"><b>Supplementary Information</b></font></summary>
+
+    <p><i>(no further information at this time)</i></p>
+
+</details>
+
+    <br/>
+
+    <hr style="height: 1px;">
+    <p><i>Copyright 2023 MIT All Rights Reserved.</i></p>
+
+
+
+    </div>
+  </body>
+</html>
