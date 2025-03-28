@@ -4,65 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualizations Home Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        .nav-button {
-            display: none;
-            margin-bottom: 10px;
-            padding: 10px 15px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .nav-button:hover {
-            background-color: #0056b3;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            background: #fff;
-            margin: 10px 0;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s;
-        }
-        li:hover {
-            transform: scale(1.02);
-        }
-        a {
-            text-decoration: none;
-            color: #007BFF;
-            font-weight: bold;
-        }
-        a:hover {
-            color: #0056b3;
-        }
-        iframe {
-            width: 850px;
-            height: 100vh; /* Full height of the viewport */
-            border: none;
-            display: none;
-            background-color: white; /* Set iframe background color to white */
-        }
-    </style>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    h1 {
+        color: #333;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        display: flex; /* Use flexbox */
+        flex-direction: column; /* Align items in a column */
+        align-items: center; /* Center items horizontally */
+    }
+    .nav-button {
+        display: none;
+        margin-bottom: 10px;
+        padding: 10px 15px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        background: #fff;
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+    li:hover {
+        transform: scale(1.02);
+    }
+    a {
+        text-decoration: none;
+        color: #007BFF;
+        font-weight: bold;
+    }
+    a:hover {
+        color: #0056b3;
+    }
+    iframe {
+        width: 950px; /* Set iframe width */
+        height: 100vh; /* Full height of the viewport */
+        border: none;
+        display: none;
+        background-color: white; /* Set iframe background color to white */
+        margin-top: 20px; /* Add some spacing above the iframe */
+    }
+</style>
     <script>
         function openPage(url, title) {
             document.getElementById('iframeView').src = url;
