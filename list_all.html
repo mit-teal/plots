@@ -73,13 +73,15 @@
             document.getElementById('iframeView').style.display = 'block';
             document.getElementById('linkList').style.display = 'none';
             document.getElementById('homeButton').style.display = 'block';
-            document.title = title;
+            document.title = title; // Change the document title
+            document.querySelector('h1').innerText = title; // Change the heading (h1) text
         }
         function goHome() {
             document.getElementById('iframeView').style.display = 'none';
             document.getElementById('linkList').style.display = 'block';
             document.getElementById('homeButton').style.display = 'none';
-            document.title = 'Visualizations Home Page';
+            document.title = 'Visualizations Home Page'; // Reset the document title
+            document.querySelector('h1').innerText = 'Visualizations Home Page'; // Reset the heading text
             document.getElementById('iframeView').src = ''; // Clear the iframe to free up resources
         }
     </script>
@@ -87,7 +89,7 @@
 <body>
     <h1>Visualizations Home Page</h1>
     <div class="container">
-        <button id="homeButton" class="nav-button" onclick="goHome()">Home</button>
+        <button id="homeButton" class="nav-button" onclick="goHome()">Go to Home Page</button>
         <ul id="linkList">
             <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/thin_film_interference.html', 'Thin Film Interference')">Thin Film Interference</a></li>
             <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/interference_diffraction_1.html', 'Interference & Diffraction 1')">Interference & Diffraction 1</a></li>
@@ -101,18 +103,18 @@
             <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/dispersive_waveforms.html', 'Dispersive Waveforms')">Dispersive Waveforms</a></li>
             <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/non_dispersing_waveform.html', 'Non-Dispersing Waveform')">Non-Dispersing Waveform</a></li>
             <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/dispersion_velocity.html', 'Dispersion Velocity')">Dispersion Velocity</a></li>
-            <li><a onclick="openPage('https://mit-teal.github.io/plots/tests/sound_waves_closed_closed.html', 'Sound Waves (Closed-Closed)')">Sound Waves (Closed-Closed)</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/sound_waves_closed_open.html', 'Sound Waves (Closed-Open)')">Sound Waves (Closed-Open)</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/polarization_states.html', 'Polarization States')">Polarization States</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/EM_Wave_traveling.html', 'EM Wave Traveling')">EM Wave Traveling</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/EM_Wave_standing.html', 'EM Wave Standing')">EM Wave Standing</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/fourier_decomposition_1.html', 'Fourier Decomposition')">Fourier Decomposition</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/wave_equation_solution.html', 'Wave Equation Solution')">Wave Equation Solution</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/Damped_driven_evolution.html', 'Damped Driven Evolution')">Damped Driven Evolution</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/damping_regimes_1.html', 'Damping Regimes')">Damping Regimes</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/superposition_1.html', 'Superposition')">Superposition</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/coupled_pendula_2.html', 'Coupled Pendula')">Coupled Pendula</li>
-            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/damped_driven_1.html', 'Damped Driven')">Damped Driven</li>
+            <li><a onclick="openPage('https://mit-teal.github.io/plots/tests/sound_waves_closed_closed.html', 'Sound Waves (Closed-Closed)')">Sound Waves (Closed-Closed)</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/sound_waves_closed_open.html', 'Sound Waves (Closed-Open)')">Sound Waves (Closed-Open)</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/polarization_states.html', 'Polarization States')">Polarization States</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/EM_Wave_traveling.html', 'EM Wave Traveling')">EM Wave Traveling</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/EM_Wave_standing.html', 'EM Wave Standing')">EM Wave Standing</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/fourier_decomposition_1.html', 'Fourier Decomposition')">Fourier Decomposition</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/wave_equation_solution.html', 'Wave Equation Solution')">Wave Equation Solution</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/Damped_driven_evolution.html', 'Damped Driven Evolution')">Damped Driven Evolution</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/damping_regimes_1.html', 'Damping Regimes')">Damping Regimes</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/superposition_1.html', 'Superposition')">Superposition</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/coupled_pendula_2.html', 'Coupled Pendula')">Coupled Pendula</a></li>
+            <li><a href="#" onclick="openPage('https://mit-teal.github.io/plots/tests/damped_driven_1.html', 'Damped Driven')">Damped Driven</a></li>
         </ul>
         <iframe id="iframeView"></iframe>
     </div>
